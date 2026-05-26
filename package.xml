@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+	<name>dobot_atom_description</name>
+	<version>0.0.0</version>
+	<description>The Dobot Atom description package</description>
+
+	<maintainer email="biao876990970@hotmail.com">Huang Zhenbiao</maintainer>
+	<license>TODO</license>
+
+	<exec_depend>joint_state_publisher_gui</exec_depend>
+	<exec_depend>launch</exec_depend>
+	<exec_depend>launch_ros</exec_depend>
+	<exec_depend>robot_state_publisher</exec_depend>
+	<exec_depend>robot_common_launch</exec_depend>
+	<exec_depend>rviz2</exec_depend>
+	<exec_depend>xacro</exec_depend>
+
+	<export>
+		<build_type>ament_cmake</build_type>
+	</export>
+
+</package>
